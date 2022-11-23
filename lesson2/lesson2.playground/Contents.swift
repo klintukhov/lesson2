@@ -26,3 +26,35 @@ stringOne + String(char)
 stringOne.append(char)
 stringOne.append(" A")
 stringTwo.append(a)
+
+
+var Stroka = "coutSymbols"
+Stroka.count
+
+a += b
+b + a
+b += a
+
+var peremString = "Salut"
+
+peremString.hasPrefix("S") // ischet pervuyu bykvu
+peremString.hasSuffix("t")
+peremString.hasSuffix("d")
+
+if peremString.hasSuffix("d") == true{
+    print ("jhsbvjhsbv")
+} else {
+    print ("\(peremString) has other character on begin of word")
+}
+if peremString.hasPrefix("S") == false {
+    print ("no, \(peremString) has not this letter")
+}
+
+peremString.count
+
+if peremString .isEmpty {
+    print ("empty")
+} else {
+
+    print ("not empty")
+}
