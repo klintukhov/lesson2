@@ -58,3 +58,44 @@ if peremString .isEmpty {
 
     print ("not empty")
 }
+
+//   1) Посоздавайте свои строки
+
+var stringEmpty = ""
+var stringEmptyTwo = String()
+var stringA: String = "abcd"
+var letter = "string \(stringA)"
+
+
+//  2) Создайте различные выражения с приведением типа
+
+typealias Chapters = Int
+var book: Chapters = 14
+print (book)
+
+typealias diameterTenis = Float
+var tenisBall: diameterTenis = 8.5
+print ("the diameter of tenisBall is \(tenisBall)")
+
+typealias diameterSoccer = Double
+var soccerBall = 35.565
+print ("the diameter of soccer ball is \(soccerBall)")
+
+
+//  3) Так же поработайте с циклом for in как в уроке
+
+
+var exampleString = "Lesson"
+for i in exampleString {
+    exampleString.hasPrefix("L")
+    exampleString.count
+    print (i)
+}
+var lettersEx: String = "Example"
+var charOne: Character = "Q"
+
+    lettersEx.count
+    lettersEx.append(charOne)
+
+var name = "Hryhorii"
+var surname = "Klintukhov"
