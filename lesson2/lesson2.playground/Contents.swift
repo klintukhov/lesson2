@@ -189,3 +189,44 @@ var charOne: Character = "Q"
 
 var name = "Hryhorii"
 var surname = "Klintukhov"
+ let placeOfBirth = "Ukraine"
+    var livingNow = "Czech Republic"
+    var hobby = "tenis"
+    let beginOfWorkYear:Int = 2022
+    let beginOfWorkMonth:Int = 04
+    let beginOfWorkDay:Int = 01
+
+    let work = "Safran CZ"
+    var good = "\u{1f44d}"
+
+// example literals
+var biography = """
+Hello, my name is \(name) \(surname), I'am from \(placeOfBirth),
+but now I'am living in\(livingNow).
+I'am working on the \(work), from \(beginOfWorkDay) \(beginOfWorkMonth) \(beginOfWorkYear).
+We playing \(hobby), and this is \(good)
+"""
+print(biography)
+
+//  example string
+
+var biographyTwo = "Hello, my name is \(name) \(surname), \nI'am from \(placeOfBirth),but now I'a living in\(livingNow).\nI'am working on the \(work), from \(beginOfWorkDay) \(beginOfWorkMonth) \(beginOfWorkYear).\nWe playing \(hobby), and this is \t\(good)"
+
+print(biographyTwo)
+
+// 7) Разбейте собственное имя на символы, перенося каждую букву на новую строку.
+
+var myName = "Grigoriy"
+for i in myName {
+    myName.count
+    print(i)
+}
+
+
+// Создайте переменную типа Int и переменную типа String. Тип Int преобразуйте в String и с помощью бинарного оператора сложите 2 переменные в одну строку.
+var variableOne: Int = 123
+var variableTwo: String = "456"
+var sumOne = String(variableOne) + variableTwo
+var sumTwo = variableOne + Int(variableTwo)!
+print (variableOne)
+print(variableTwo)
